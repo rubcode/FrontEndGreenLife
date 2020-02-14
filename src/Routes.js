@@ -4,8 +4,8 @@ import { HomePage } from './Pages/Home/home.js';
 import { EscanearCodigo } from './Pages/EscanearCodigo/EscanearCodigo.js';
 import { Congratulations } from './Pages/Congratulations/Congratulations.js';
 import { Socios } from './Pages/Socios/Socios.js'
-import { Login } from './Pages/Login/Login.js';
-import { Registro } from './Pages/Registro/Registro.js';
+import { Login } from './Pages/Login/Login';
+import { Registro } from './Pages/Registro/UserUploader';
 const Routes = () =>{
     return(
         <Switch>

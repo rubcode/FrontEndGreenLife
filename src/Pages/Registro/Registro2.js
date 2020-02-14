@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export const Registro = () =>(
+// export const Registro = () =>(
 		
 		<main>
             <div id="pnlregistro" class="container pink-text text-darken-2">
@@ -20,7 +20,7 @@ export const Registro = () =>(
 					<div class="row">
 						<div class="input-field col l6 m6 s12">
 							<input id="txtedad" type="text" class="validate" name="txtedad" placeholder="Edad" maxlength="10"></input>
-							<label for="telefono">Télefono</label>
+							<label for="telefono">Edad</label>
 						</div>
 						<div class="input-field col l6 m6 s12">
 							<input id="email" type="email" class="validate" name="email" placeholder="Email"></input>
