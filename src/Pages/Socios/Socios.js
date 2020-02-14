@@ -1,10 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Navbar from '../../Components/Shared/Navbar/Navbar';
 export const Socios = () =>(
 	<main>
+		<Navbar></Navbar>
 		<div class="container">
 			<div class="row">
-				<h4 class="center">Bonificaciones</h4>
+				<h4 class="center">Socios Verdes</h4>
 			</div>
 			<div class="row center">
 				<div class="circle">

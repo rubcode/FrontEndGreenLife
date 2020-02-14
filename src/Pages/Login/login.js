@@ -38,7 +38,7 @@ export const Login = () =>(
 						</div>
 					</div>
 					<div class="row pnlsignup center">
-						<span class="nowsignup black-text">¿No estas registrado? <a href="registrate.php">Registrate aqui</a></span>
+						<span class="nowsignup black-text">¿No estas registrado? <Link to="/registro" >Registrate aqui</Link></span>
 					</div>
 					<div class="row"></div>
 				</form>

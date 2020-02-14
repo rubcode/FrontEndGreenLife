@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Navbar = ()=>(
 	<header>
@@ -10,12 +11,12 @@ export const Navbar = ()=>(
 		        <a href="index.html" class="brand-logo">Greenlife</a>
 		        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 		        <ul class="right hide-on-med-and-down">
-		          <li><a href="descuentos.html">Empresas Verdes</a></li>
-		          <li><a href="puntos.html">Escanear Código</a></li>
+		          <li><Link to="/Socios">Empresas Verdes</Link></li>
+		          <li><Link to="/Escanear">Escanear Código</Link></li>
 		        </ul>
 		        <ul class="side-nav" id="mobile-demo">
-			      <li><a href="descuentos.html">Establecimientos</a></li>
-		          <li><a href="puntos.html">Escanear Código</a></li>
+				  <li><Link to="/Socios">Empresas Verdes</Link></li>
+		          <li><Link to="/Escanear">Escanear Código</Link></li>
 			    </ul>
 		      </div>
 		    </nav>
