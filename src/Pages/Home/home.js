@@ -1,8 +1,12 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import { Navbar } from '../../Components/Shared/Navbar/Navbar';
-//Las arrow function no tienen contexto (no puedes usar)
+
+
 export const HomePage = () =>(
+		
 		<main>
+		<Navbar></Navbar>
 		<div class="container">
 			<div class="row center">
 			</div>
@@ -13,7 +17,7 @@ export const HomePage = () =>(
 				<h6 class="center">Puntos: 85</h6>
 			</div>
 			<div class="row center">
-				<a href="puntos.html" class="waves-effect waves-light btn bg-green">Ganar Puntos</a>
+				<Link to="/Escanear" class="waves-effect waves-light btn bg-green">Ganar Puntos</Link>
 			</div>
 		</div>
 		</main>
