@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+body{
+	font-family: 'Concert One', cursive;
+}
 #sidenav-overlay
 {
 	display: none;
 }
 .bg-green{
 	background-color: #2db886;
+}
+.green{
+	color: #2db886 !important;
+}
+.bannergreen{
+	background-color: #2db886;
+	height: 20vh;
 }
 .white-text{
 	color: #ffffff !important;	
@@ -14,14 +25,14 @@
 .qr
 {
 	margin-top: 20px;
-	height: 250px;
-	width: 250px;
+	height: 200px;
+	width: 200px;
 }
 .imgdescuento
 {
 	width: 100%;
 	height: 150px;
-	background-color: #9e9e9e;
+	background-color: #ffffff;
 }
 .circle
 {
@@ -40,15 +51,153 @@
 }
 .lblcongratulations
 {
-	margin-top: 35vh;
+	padding: 50px;
 }
 #login
 {
 	position: relative;
 	top: 10vh;
-	max-width:350px;
-    max-height:450px;
+	max-width:400px;
+    max-height:550px;
     margin-bottom: 2vh;
     border-radius: 10px;
     box-shadow: 0 2px 8px 0 rgba(0,0,0,.25);
+}
+.btnrounded
+{
+	width: 300px;
+	border-radius: 30px;
+	height: 40px;
+	font-size: 120%;
+	letter-spacing: 3px;
+}
+.pnlheaders
+{
+	height: 60vh;
+	background-color: #2db886;
+	padding: 40px 0; 
+}
+.btnwhite
+{
+	color: #2db886;
+	background-color: #ffffff;
+	border: 2px solid #2db886;
+}
+.mgtop
+{
+	height: 40vh !important;
+}
+.lbltitle
+{
+	margin-top: 10vh;
+}
+.hm
+{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/1200px-H%26M-Logo.svg.png");
+	background-size: 100% 100%;
+}
+.bsk
+{
+	background-image: url("https://static.bershka.net/4/static/itxwebstandard/images/gshopping/logo_500x500px.png");
+	background-size: 100% 100%;
+}
+.che
+{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQs0UedeCS0jIY7Mj5XM_b0rZydiym_PwNBL3PEaj4bf5J65KK7");
+	background-size: 100% 100%;
+}
+.cie
+{
+	background-image: url("https://i.pinimg.com/originals/8f/e7/ae/8fe7aed8c9264883d180f39776ddd01d.png");
+	background-size: 100% 100%;
+}
+.sta
+{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d4/SBUX_1987.png");
+	background-size: 100% 100%;
+}
+.bod
+{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8j_d6His1NiRot6JjNY5SJuwViu_PDpJgZ5Iiy_ylovaMqFe8");
+	background-size: 100% 100%;
+}
+.cin
+{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c8/Logo_Cinepolis_2019.jpg");
+	background-size: 100% 100%;
+}
+.sha
+{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3ggLV7B7m32QAd-ZqYoXmB-iIYrCDA-wPdUsZiddnugAnElZ7");
+	background-size: 100% 100%;
+}
+.pnlbotonera
+{
+	height: 25vh;
+	background-color: #2db886;
+}
+
+.btnwhitecircle
+{
+	background-color: #ffffff;
+	margin-top: 7vh;
+}
+.btnwhitecircle i{
+	color: #2db886;
+}
+.txttitlebotonera
+{
+	font-size: 120%;
+	font-weight: 500;
+}
+.btnwhitecircle:focus{
+	background-color: #ffffff !important;
+}
+.btnwhitecircle:hover{
+	background-color: #ffffff !important;
+}
+.imgprofile
+{
+	width: 100px;
+	height: 100px;
+}
+.cardsocio{
+	margin-top: 40px;
+}
+.cardsocio p{
+	text-align: justify;
+}
+
+.pnlimgprofile{
+	width: 130px;
+	height: 130px;
+	padding: 10px;
+	border-radius: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.imglogo
+{
+	height: 200px;
+	width: 200px;
+}
+.pnlwhitepnlimg
+{
+	height: 230px;
+	width: 230px;
+	background-color: #ffffff;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 20%;
+}
+.pnlticket
+{
+	background-image: url("http://rubrivero.com/img_green/Ticket2.png");
+	background-size: 100% 100%;
+	height: 40vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10vh;
 }

@@ -34,22 +34,35 @@ export class Registro extends Component {
             <div>
                 <form className="p-5" onSubmit={this.onSubmitForm}>
                     <div className="form-group">
-                        <label for="formGroupExampleInput">Titulo</label>
+                        <label for="formGroupExampleInput">Nombre</label>
                         <input type="text" className="form-control" id="name"
                             onChange={this.onInputChange}
                             value={this.state.name}
                         />
                     </div>
                     <div className="form-group">
-                        <label for="formGroupExampleInput2">email</label>
+                        <label for="formGroupExampleInput2">Correo electrónico</label>
                         <input type="text" class="form-control" id="email"
                         onChange={this.onInputChange}
                         value={this.state.email}
                         />
                     </div>
-                   
+                    <div className="form-group">
+                        <label for="formGroupExampleInput2">Año de nacimiento</label>
+                        <input type="number" class="form-control" id="year"
+                        onChange={this.onInputChange}
+                        value={this.state.year}
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label for="formGroupExampleInput2">Contraseña</label>
+                        <input type="text" class="form-control" id="password"
+                        onChange={this.onInputChange}
+                        value={this.state.password}
+                        />
+                    </div>
                 
-                    <button className="btn btn-success" type="submit">Guardar</button>
+                    <button className="btn btn-success" type="submit">Registrarme</button>
                 </form>
             </div>
         )

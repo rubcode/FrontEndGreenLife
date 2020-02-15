@@ -16,7 +16,7 @@ export const EscanearCodigo = () =>(
 			</div>
 		</div>
 		<div class="row center">
-			<Link to="/Felicidades" class="waves-effect waves-light btn bg-green">Escanear Código</Link>
+			<Link to="/Felicidades" class="btn btnrounded bg-green">Escanear Código</Link>
 		</div>
 	</main>
 )
