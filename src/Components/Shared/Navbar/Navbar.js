@@ -8,15 +8,17 @@ export const Navbar = ()=>(
 		    <div class="navbar-fixed">
 		    <nav class="bg-green mynav">
 		      <div class="nav-wrapper">
-		        <a href="index.html" class="brand-logo">Greenlife</a>
+		        <Link to="/Perfil" class="brand-logo">Greenlife</Link>
 		        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 		        <ul class="right hide-on-med-and-down">
-		          <li><Link to="/Socios">Empresas Verdes</Link></li>
-		          <li><Link to="/Escanear">Escanear Código</Link></li>
+				  <li><Link to="/Perfil"><i class="material-icons left">face</i>Perfil</Link></li>
+		          <li><Link to="/Socios"><i class="material-icons left">store</i>Empresas Verdes</Link></li>
+		          <li><Link to="/Escanear"><i class="material-icons left">center_focus_strong</i>Escanear Código</Link></li>
 		        </ul>
 		        <ul class="side-nav" id="mobile-demo">
-				  <li><Link to="/Socios">Empresas Verdes</Link></li>
-		          <li><Link to="/Escanear">Escanear Código</Link></li>
+				  <li><Link to="/Perfil"><i class="material-icons left">face</i>Perfil</Link></li>
+				  <li><Link to="/Socios"><i class="material-icons left">store</i>Empresas Verdes</Link></li>
+		          <li><Link to="/Escanear"><i class="material-icons left">center_focus_strong</i>Escanear Código</Link></li>
 			    </ul>
 		      </div>
 		    </nav>

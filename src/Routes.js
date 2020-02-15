@@ -6,10 +6,12 @@ import { Congratulations } from './Pages/Congratulations/Congratulations.js';
 import { Socios } from './Pages/Socios/Socios.js'
 import { Login } from './Pages/Login/Login.js';
 import { Registro } from './Pages/Registro/Registro.js';
+import { Inicio} from './Pages/Inicio/Inicio.js'
 const Routes = () =>{
     return(
         <Switch>
-        <Route exact path='/' component= {Login} />
+           <Route exact path='/' component= {Inicio} />
+           <Route exact path='/Login' component= {Login} />
            <Route exact path='/Perfil' component= {HomePage} />
            <Route exact path='/Escanear' component= {EscanearCodigo} />
            <Route exact path='/Felicidades' component= {Congratulations} />

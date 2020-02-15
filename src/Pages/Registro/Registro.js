@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 
 export const Registro = () =>(
@@ -18,7 +19,7 @@ export const Registro = () =>(
 						</div>
 						<div class="input-field col l6 m6 s12">
 							<input id="txtedad" type="text" class="validate" name="txtedad" placeholder="Edad"></input>
-							<label for="telefono">Télefono</label>
+							<label for="txtedad">Edad</label>
 						</div>
 						<div class="input-field col l6 m6 s12">
 							<input id="email" type="email" class="validate" name="email" placeholder="Email"></input>
@@ -33,8 +34,8 @@ export const Registro = () =>(
 							<label for="repetir">Repetir Contraseña</label>
 						</div>
 						<div class="input-field col s12 center">
-							<button id ="btnregistrate" class="btn waves-effect waves-light btnrounded bg-green" type="button" >Ingresar
-							</button>
+							<Link to="/Login" id ="btnregistrate" class="btn waves-effect waves-light btnrounded bg-green" type="button" >Ingresar
+							</Link>
 						</div>
 					</div>
 				</form>				
